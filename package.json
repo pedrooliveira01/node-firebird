@@ -1,5 +1,5 @@
 {
-  "name": "@oressoftware/node-firebird-os",
+  "name": "node-firebird-os",
   "version": "0.9.8",
   "description": "Fork project node-firebird.",
   "keywords": [
