@@ -1,6 +1,6 @@
 {
   "name": "node-firebird-os",
-  "version": "0.9.8",
+  "version": "1.0.0",
   "description": "Fork project node-firebird.",
   "keywords": [
     "firebird",
