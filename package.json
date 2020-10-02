@@ -1,43 +1,44 @@
 {
-    "name": "node-firebird",
-    "version": "0.9.8",
-    "description": "Pure JavaScript and Asynchronous Firebird client for Node.js.",
-    "keywords": [
-        "firebird",
-        "database",
-        "rdbms",
-        "sql"
-    ],
-    "homepage": "https://github.com/hgourvest/node-firebird",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/hgourvest/node-firebird"
-    },
-    "author": {
-        "name": "Henri Gourvest",
-        "email": "hgourvest@gmail.com"
-    },
-    "contributors": [
-        "Popa Marius Adrian <mapopa@gmail.com>",
-        "Peter Širka <petersirka@gmail.com>"
-    ],
-    "main": "./lib",
-    "types": "./lib/index.d.ts",
-    "licenses": [
-        {
-            "type": "MPL-2.0",
-            "url": "https://github.com/hgourvest/node-firebird/blob/master/LICENSE"
-        }
-    ],
-    "scripts": {
-        "test": "mocha"
-    },
-    "dependencies": {
-        "long": "^4.0.0"
-    },
-    "devDependencies": {
-        "coveralls": "^3.0.1",
-        "mocha": "^8.0.1",
-        "nyc": "^15.0.1"
+  "name": "@oressoftware/node-firebird-os",
+  "version": "0.9.8",
+  "description": "Fork project node-firebird.",
+  "keywords": [
+    "firebird",
+    "database",
+    "rdbms",
+    "sql"
+  ],  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrooliveira01/node-firebird-os.git"
+  },  
+  "main": "./lib",
+  "types": "./lib/index.d.ts",
+  "licenses": [
+    {
+      "type": "MPL-2.0",
+      "url": "https://github.com/hgourvest/node-firebird/blob/master/LICENSE"
     }
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "long": "^4.0.0"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.1",
+    "mocha": "^8.0.1",
+    "nyc": "^15.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/pedrooliveira01/node-firebird-os/issues"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "Pedro Henrique de Oliveira",
+  "license": "MIT",
+  "homepage": "https://github.com/pedrooliveira01/node-firebird-os"
 }
